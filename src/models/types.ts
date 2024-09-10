@@ -4,3 +4,8 @@ export interface IAdderReturnType{
     Sum: bit;
     Carry: bit;
 }
+
+export interface ISubtractorReturnType{
+    Difference: bit;
+    Bout: bit;
+}
